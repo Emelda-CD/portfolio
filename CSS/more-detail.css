@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar1 {
+    position: fixed;              /* Makes it float */
+    top: 0;                       /* Stick to the top */
+    left: 0;                      /* Align to the left edge */
+    width: 100%;                  /* Full width of the screen */
+    z-index: 1000;                /* Keeps it above other elements */
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F1F1;
+    box-shadow: 0 0 0.5px #333;
+    padding: 20px 10px;
+  }
+  
+  
+  .navbar1 h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #E91E63;
+  }
+  
+  .navbar1 ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar1 li {
+    margin: 0 15px;
+  }
+  
+  .navbar1 a {
+    color:#333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar1 a:hover {
+    text-decoration: none;
+  }
+  
+  .social-icons a {
+    margin: 0 8px;
+    color:  #333;
+    font-size: 18px;
+  }
+  
+  .social-icons a:hover {
+    color: rgb(130, 130, 9);
+  }
+  
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons {
+      margin-top: 10px;
+    }
+  }
+
+  /* Portfolio Details Section */
+#portfolio-details.section {
+    padding: 60px 0;
+    background: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  #portfolio-details .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px;
+  }
+  
+  .section-title {
+    margin-bottom: 40px;
+  
+  }
+  
+
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .section-title p {
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  /* Right: Project Info */
+  .project-info {
+    flex: 1 1 48%;
+    max-width: 48%;
+  }
+  
+  .project-info h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+
+  .project-info ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .project-info ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .project-info ul li strong {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  
+  .project-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .portfolio-description h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .portfolio-description p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Responsive: Stack on small screens */
+  @media (max-width: 768px) {
+    .portfolio-items {
+      flex-direction: column;
+    }
+  
+    .portfolio-details-slider,
+    .project-info {
+      max-width: 100%;
+      flex: 1 1 100%;
+    }
+  }
+  
+  
+/* CSS for Footer */
+.footer {
+    background-color:  #F6F1F1;
+    color: #333;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: -30px; 
+    z-index: 1;
+    position: relative;
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #E91E63;
+  }
+  
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #E91E63;
+  }
+  
+  footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+  }

@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    position: fixed;              /* Makes it float */
+    top: 0;                       /* Stick to the top */
+    left: 0;                      /* Align to the left edge */
+    width: 100%;                  /* Full width of the screen */
+    z-index: 1000;                /* Keeps it above other elements */
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F1F1;
+    box-shadow: 0 0 0.5px #333;
+    padding: 20px 10px;
+  }
+  
+  
+  .navbar h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #E91E63;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color:#333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: none;
+  }
+  
+  .social-icons a {
+    margin: 0 8px;
+    color:  #333;
+    font-size: 18px;
+  }
+  
+  .social-icons a:hover {
+    color: rgb(130, 130, 9);
+  }
+  
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons {
+      margin-top: 10px;
+    }
+  }
+
+
+  .about-section {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    background: #fff;
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+
+  .about-title {
+    margin-bottom: 40px;
+  
+  }
+  
+  .about-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+ 
+
+  .about-section p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .about-image {
+    flex: 1;
+    min-width: 280px;
+  }
+
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .about-details {
+    flex: 1;
+    min-width: 280px;
+  }
+
+  .about-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .about-details li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .about-details span {
+    font-weight: bold;
+    color: #333;
+  }
+
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .education-background {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .education-background h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .education-background ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .education-background li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+
+/* Skills Section */
+#skills {
+  background: #f9f9f9;
+  padding: 60px ;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;            /* Centers the container */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+
+
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-title p {
+  font-size: 16px;
+  color: #666;
+}
+
+.progress {
+  margin-bottom: 25px;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.skill {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.progress-bar-wrap {
+  background: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  border-radius: 6px;
+  transition: none; /* No animation */
+}
+
+
+
+
+  /* CSS for Footer */
+.footer {
+  background-color:  #F6F1F1;
+  color: #333;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: -30px; 
+  z-index: 1;
+  position: relative;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #E91E63;
+}
+
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #E91E63;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
